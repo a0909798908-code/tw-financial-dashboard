@@ -10,7 +10,7 @@ from datetime import datetime
 import os
 
 # Setup configuration
-BACKEND_URL = os.getenv("BACKEND_URL", "http://127.0.0.1:8000")
+BACKEND_URL = "https://tw-financial-dashboard.onrender.com"
 
 st.set_page_config(
     page_title="智慧財經資訊儀表板",
